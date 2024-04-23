@@ -1,12 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Sedan:ital@0;1&display=swap');
+
 .sedan-regular {
     font-family: "Sedan", serif;
     font-weight: 400;
     font-style: normal;
   }
+
+  .abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+
+  body {
+    font-family: "Sedan", serif;
+    background-color: rgb(125, 74, 173);
+    color: rgb(93, 8, 135);
+  }
+
+ header {
+    display: flex;
+    justify-content: space-around;
+ }
